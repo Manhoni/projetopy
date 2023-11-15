@@ -18,9 +18,6 @@ def cidadealbion():
 
     informacoes = url.json()
 
-    import pprint
-
-
     item = informacoes[0]['item_id']
     if item == 'T4_2H_CLEAVER_HELL@1':
         item = 'T4 Carving Sword'
