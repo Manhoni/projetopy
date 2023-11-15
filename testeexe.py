@@ -31,7 +31,7 @@ def cidadealbion():
 janela = Tk()
 
 janela.title('Cidade Albion')
-texto_entrada = Label(janela, text='Digite o numero da cidade que deseja\n 10 - Bridgewatch \n 15 - Caerleon \n 20 - Fort Sterling \n 25 - Lymhurst \n 30 - Martlock \n 35 - Thetford \n 2 - Black Market')
+texto_entrada = Label(janela, text='Digite o numero da cidade que deseja\n 10 - Bridgewatch \n 15 - Caerleon \n 20 - Fort Sterling \n 25 - Lymhurst \n 30 - Martlock \n 35 - Thetford \n 5 - Black Market')
 texto_entrada.grid(column=0, row=0)
 entrada = Entry(janela, width=3)
 entrada.grid(column=0, row=1)
